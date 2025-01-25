@@ -19,6 +19,7 @@ pub struct Size {
     pub height: u32,
 }
 
+#[derive(Debug)]
 pub enum Error {
     InvalidHeight,
     InvalidWidth,
