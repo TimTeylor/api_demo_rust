@@ -32,7 +32,7 @@ fn main() {
         },
     };
 
-    let filter = previewer::str_to_filter(&args.filter).unwrap_or_else(|| FilterType::Gaussian);
+    let filter = previewer::str_to_filter(&args.filter).unwrap_or(FilterType::Gaussian);
 
     let size = Size {
         width: args.width,

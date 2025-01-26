@@ -1,5 +1,5 @@
 [workspace]
-members = [ "cli_previewer","previewer"]
+members = [ "cli_previewer","previewer", "web_previewer"]
 
 resolver = "2"
 
